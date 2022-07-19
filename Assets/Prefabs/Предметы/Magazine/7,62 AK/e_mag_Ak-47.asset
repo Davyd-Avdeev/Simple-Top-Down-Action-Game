@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: facbc13e67310014ea0471b7db0321e8, type: 3}
+  m_Name: e_mag_Ak-47
+  m_EditorClassIdentifier: 
+  itemName: empty magazine 7,62
+  maximumAmount: 1
+  itemPrefab: {fileID: 1077042665322383628, guid: 27c9a70ce922fd1489cfcc2f722ef2b5, type: 3}
+  model: {fileID: 3975734167524874946, guid: 66a68b432caa87c4c944b5c1f2650e80, type: 3}
+  icon: {fileID: 21300000, guid: 1dc73659bb1e65f4db49494fee12c6cf, type: 3}
+  itemType: 3
+  itemDescription: Emprty magazine... ! 7,62
+  isConsumeable: 0
+  changeHealth: 0
+  calibre: 7,62
+  isEmpty: 1
+  e_mag: {fileID: 0}

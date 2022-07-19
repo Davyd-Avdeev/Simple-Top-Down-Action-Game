@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68aee3a1fd3d08242acd5405da080e79, type: 3}
+  m_Name: Find 2 Scar
+  m_EditorClassIdentifier: 
+  qName: Find Scar
+  questType: 1
+  qDescription: I dont now
+  noCompletedPhrase: Yes
+  rewardPhrase: Hehe
+  questions:
+  - Please, help me!
+  - "I would like to shoot from two scars\u0401"
+  answer:
+  - Oh? Okat...
+  - No, it's don't unsafe
+  needItem: {fileID: 11400000, guid: 6ce96a9864b024346b1e65b4ae967387, type: 2}
+  count: 2
+  rewardItem: {fileID: 11400000, guid: 92b76574fb2503843b7dbe2d7fe287ac, type: 2}
+  countReward: 30

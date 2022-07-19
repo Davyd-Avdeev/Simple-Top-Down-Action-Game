@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f6a205b7a23bb4d8d849d9f1d509a2, type: 3}
+  m_Name: TrashCan2
+  m_EditorClassIdentifier: 
+  storageItems:
+  - item: {fileID: 11400000, guid: 6ce96a9864b024346b1e65b4ae967387, type: 2}
+    amount: 1
+    magItem: {fileID: 0}
+    magAmout: 0
+  - item: {fileID: 11400000, guid: aca974d7885e10947803b0cbf674b628, type: 2}
+    amount: 2
+    magItem: {fileID: 0}
+    magAmout: 0
+  - item: {fileID: 11400000, guid: aca974d7885e10947803b0cbf674b628, type: 2}
+    amount: 4
+    magItem: {fileID: 0}
+    magAmout: 0
