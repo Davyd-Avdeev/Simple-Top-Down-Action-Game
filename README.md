@@ -1,2 +1,2 @@
-# Simple-Top-Down-Action-Game
 Simple Top-Down action game made on Unity
+Build of project is located in folder "Build (exe)"
