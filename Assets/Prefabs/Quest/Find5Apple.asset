@@ -17,7 +17,7 @@ MonoBehaviour:
   qDescription: We need to find 5 apples for Frank, by his appearance it seems that
     we need to hurry up
   noCompletedPhrase: Did you bring apples? No? Then why did you come?
-  rewardPhrase: Ohh, my apple~. Thank you, take your rewward
+  rewardPhrase: Ohh, my apple~. Thank you, take your reward
   questions:
   - Hello traveler, can you help me find some apples? 5 pieces will probably be enough.
   - I don't think they're hard to find, but I'm too lazy to look for them myself.

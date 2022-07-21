@@ -18,6 +18,8 @@ public class InterfaceManager : MonoBehaviour
     public Transform HPBar;
     public Transform ammoInfo;
     public Transform reloadInfo;
+    public Transform controlInfo;
+    public bool ctrlInfoIsOpened = false;
     public List<InfoQuestSpot> activeQuests;
     public bool smthOpened;
 
@@ -55,6 +57,19 @@ public class InterfaceManager : MonoBehaviour
                 menuPanel.gameObject.SetActive(false);
 
                 player.GetComponent<PlayerContrl>().PlayerInUIPanel(false);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (ctrlInfoIsOpened)
+            {
+                controlInfo.GetComponent<TextMeshProUGUI>().text = "Space to show the keys";
+                ctrlInfoIsOpened = false;
+            }
+            else
+            {
+                controlInfo.GetComponent<TextMeshProUGUI>().text = "Space to hide the keys \n I - Inventory \n K - Quest menu \n ESC - Menu";
+                ctrlInfoIsOpened = true;
             }
         }
     }

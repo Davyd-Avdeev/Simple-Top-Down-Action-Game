@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: aca974d7885e10947803b0cbf674b628, type: 2}
-  amount: 1
+  amount: 6
   magItem: {fileID: 0}
   magAmount: 0
 --- !u!114 &7647254421761948818
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "[E]\u0412\u0437\u044F\u0442\u044C"
+  m_text: '[E] Take'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
